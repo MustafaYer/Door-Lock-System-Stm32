@@ -1,0 +1,8 @@
+../Core/Src/main.c:88:6:keypad_scan	5
+../Core/Src/main.c:120:6:main_menu	18
+../Core/Src/main.c:195:6:change_password	17
+../Core/Src/main.c:268:5:main	1
+../Core/Src/main.c:319:6:SystemClock_Config	4
+../Core/Src/main.c:374:13:MX_I2C1_Init	2
+../Core/Src/main.c:408:13:MX_GPIO_Init	1
+../Core/Src/main.c:460:6:Error_Handler	1
