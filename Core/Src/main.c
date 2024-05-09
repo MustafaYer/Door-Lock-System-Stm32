@@ -124,6 +124,7 @@ void main_menu() {
 		lcd_put_cur(0, 0);
 		lcd_send_string("Butona Basiniz ");
 		last_key = 0;
+		change_password_next = 0;
 		main_next = 1;
 
 	} else if (main_next == 1) {
@@ -173,7 +174,7 @@ void main_menu() {
 			if (i == 4) { // Döngü normal şekilde tamamlanmışsa şifreler eşittir
 				lcd_clear();
 				lcd_put_cur(0, 0);
-				lcd_send_string("Sifre Dogru");
+				lcd_send_string("Kapi Aciliyor");
 				main_timeout = milis + 1000;
 				main_next = 101;
 			} else {
@@ -234,6 +235,11 @@ void change_password() { // Sifre degistirme menusu
 				k = 0;
 				change_password_next = 5;
 			}
+		}
+		if(key == 'D'){
+			change_password_next = 0;
+			main_next = 0;
+			k = 0;
 		}
 
 	} else if (change_password_next == 5) {
