@@ -8,6 +8,6 @@
 
 -> Şifreyi değiştirmek istiyorsanız yıldız tuşuna art arda 2 kez basın.
 
--> Şifre değiştirme ekranında 4 haneli şifreyi girdikten sonra board üzerinde bulunan butona basın.
+-> Şifre değiştirme ekranında 4 haneli şifreyi girdikten sonra board üzerinde bulunan butona basın. Şifreniz değiştirilmiş olacaktır.
 
--> Eğer şifre değiştirme ekranını kaydetmeden çıkmak istiyorsanı D tuşuna basın.
+-> Eğer şifre değiştirme ekranından kaydetmeden çıkmak istiyorsanı D tuşuna basın. Şifreniz değiştirilmeden ana ekrana dönecektir.
